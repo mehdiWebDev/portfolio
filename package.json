@@ -1,0 +1,20 @@
+{
+  "name": "mahdi-ouatah-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio of Mahdi Ouatah — Full-Stack Developer & Brand Builder",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.18",
+    "three": "^0.171.0"
+  }
+}

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#050505" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23050505'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-style='italic' font-size='21' font-weight='700' fill='%23ff3b3b' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E"
+    />
+    <title>Mahdi Ouatah — Full-Stack Developer & Brand Builder</title>
+    <meta
+      name="description"
+      content="Mahdi Ouatah — full-stack developer and brand builder. I design and ship products end to end: headless backends, Stripe commerce, WebGL motion, and the brand around them. Creator of Couleva."
+    />
+    <meta name="author" content="Mahdi Ouatah" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mahdi Ouatah — Full-Stack Developer & Brand Builder" />
+    <meta
+      property="og:description"
+      content="I design and ship products end to end — backends, commerce, WebGL, and brand. Creator of Couleva."
+    />
+    <meta property="og:image" content="./og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mahdi Ouatah — Full-Stack Developer & Brand Builder" />
+    <meta
+      name="twitter:description"
+      content="I design and ship products end to end — backends, commerce, WebGL, and brand. Creator of Couleva."
+    />
+    <meta name="twitter:image" content="./og.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;1,300;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#top" class="sr-only skip-link">Skip to content</a>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader" aria-hidden="true">
+      <div class="preloader__word"><span data-pre-word>MAHDI OUATAH</span></div>
+      <div class="preloader__count"><span id="preCount">00</span><sup>%</sup></div>
+      <div class="preloader__bar" id="preBar"></div>
+    </div>
+
+    <!-- ===== ATMOSPHERE ===== -->
+    <div class="grain" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="cursor" id="cursor" aria-hidden="true">
+      <div class="cursor__ring"></div>
+      <div class="cursor__dot"></div>
+      <div class="cursor__label" id="cursorLabel"></div>
+    </div>
+
+    <!-- ===== NAV ===== -->
+    <header class="nav" id="nav">
+      <a href="#top" class="nav__brand" data-cursor="">
+        <span class="idx">/M.O</span>
+        <span>Mahdi&nbsp;Ouatah</span>
+      </a>
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#work" data-cursor=""><span class="num">01</span>Work</a>
+        <a href="#about" data-cursor=""><span class="num">02</span>About</a>
+        <a href="#contact" class="nav__cta" data-cursor=""><span class="num">03</span>Contact</a>
+        <span class="nav__status"><span class="pulse"></span>Available</span>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ===== HERO ===== -->
+      <section class="hero" id="hero">
+        <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero__glow" aria-hidden="true"></div>
+
+        <div class="hero__top">
+          <p class="hero__intro">
+            <b>Full-stack developer &amp; brand builder.</b> I design and ship
+            products end to end — from headless backends and Stripe checkouts to
+            WebGL and brand films.
+          </p>
+          <div class="hero__coords mono">
+            <span>Based in Canada</span>
+            <span>Available — 2026</span>
+            <span class="red">● Open to work</span>
+          </div>
+        </div>
+
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            <span class="line"><span class="reveal" data-line>Full&#8209;Stack</span></span>
+            <span class="line"><span class="reveal" data-line>Developer<sup>®</sup></span></span>
+            <span class="line"><span class="reveal" data-line><span class="amp">&amp;</span> Brand <em>Builder</em></span></span>
+          </h1>
+
+          <div class="hero__bottom">
+            <div class="hero__roles">
+              <span>React / Next.js</span>
+              <span>Node / Strapi / Supabase</span>
+              <span>Stripe Commerce</span>
+              <span>GSAP / Three.js / Remotion</span>
+            </div>
+            <a href="#work" class="hero__scroll" data-cursor="">
+              Scroll to explore
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== MARQUEE ===== -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee="1">
+          <span class="marquee__item">React<span class="marquee__star">✦</span>Next.js<span class="marquee__star">✦</span>TypeScript<span class="marquee__star">✦</span>Supabase<span class="marquee__star">✦</span>Strapi<span class="marquee__star">✦</span>Stripe<span class="marquee__star">✦</span></span>
+          <span class="marquee__item">React<span class="marquee__star">✦</span>Next.js<span class="marquee__star">✦</span>TypeScript<span class="marquee__star">✦</span>Supabase<span class="marquee__star">✦</span>Strapi<span class="marquee__star">✦</span>Stripe<span class="marquee__star">✦</span></span>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee="-1">
+          <span class="marquee__item stroke">Three.js<span class="marquee__star">✦</span>GSAP<span class="marquee__star">✦</span>WebGL<span class="marquee__star">✦</span>Remotion<span class="marquee__star">✦</span>PostgreSQL<span class="marquee__star">✦</span>Node<span class="marquee__star">✦</span></span>
+          <span class="marquee__item stroke">Three.js<span class="marquee__star">✦</span>GSAP<span class="marquee__star">✦</span>WebGL<span class="marquee__star">✦</span>Remotion<span class="marquee__star">✦</span>PostgreSQL<span class="marquee__star">✦</span>Node<span class="marquee__star">✦</span></span>
+        </div>
+      </div>
+
+      <!-- ===== ABOUT ===== -->
+      <section class="section container about" id="about">
+        <div class="about__left">
+          <p class="eyebrow" data-reveal="fade">(02) — Profile</p>
+          <h2 class="about__statement" data-split>
+            <span class="ln"><span>I build the</span></span>
+            <span class="ln"><span><em>whole</em> thing —</span></span>
+            <span class="ln"><span>interface, backend,</span></span>
+            <span class="ln"><span>commerce, and the</span></span>
+            <span class="ln"><span>brand around it.</span></span>
+          </h2>
+        </div>
+        <div class="about__right">
+          <div class="about__body">
+            <p data-reveal="up">
+              I'm <b>Mahdi Ouatah</b>, a full-stack developer who likes to own a
+              product from the database to the last pixel of motion. Most days
+              that means <b>React, Next.js and TypeScript</b> on the front,
+              <b>Node, Strapi and Supabase</b> on the back, and Stripe wiring the
+              commerce in between.
+            </p>
+            <p data-reveal="up">
+              What I care about is the <b>finish</b> — the typography, the
+              transitions, the way a checkout feels under your thumb. With
+              <b>Couleva</b> I took it further and built an entire brand from
+              zero: identity, headless CMS, a programmatic video engine, and the
+              storefront that sells it.
+            </p>
+          </div>
+          <div class="about__stats">
+            <div class="about__stat" data-reveal="up">
+              <span class="num" data-count="4">0</span>
+              <span class="lbl">Featured projects</span>
+            </div>
+            <div class="about__stat" data-reveal="up">
+              <span class="num"><span class="red" data-count="1">0</span></span>
+              <span class="lbl">Brand, end&nbsp;to&nbsp;end</span>
+            </div>
+            <div class="about__stat" data-reveal="up">
+              <span class="num">CA</span>
+              <span class="lbl">Based in Canada</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== WORK ===== -->
+      <section class="section container" id="work">
+        <div class="head">
+          <div>
+            <p class="eyebrow" data-reveal="fade">(01) — Selected Work</p>
+            <h2 class="head__title" data-reveal="up">Selected<br /><em>work</em></h2>
+          </div>
+          <div class="head__meta" data-reveal="fade">
+            <p class="mono">04 / Projects</p>
+            <p>Products I designed, engineered and shipped — front to back.</p>
+          </div>
+        </div>
+
+        <div class="work__list">
+          <!-- 01 COULEVA -->
+          <article class="work__item" style="--accent:#ff3b3b" data-reveal="up">
+            <div class="work__visual" data-tilt>
+              <div class="work__visual-lines"></div>
+              <div class="work__visual-grain"></div>
+              <div class="work__visual-inner">
+                <span class="work__tagline">Wear the Music — Wear the Art</span>
+                <div class="work__wordmark">Couleva</div>
+                <span class="work__bignum">Brand · CMS · Video</span>
+              </div>
+            </div>
+            <div class="work__meta">
+              <span class="work__index">01</span>
+              <h3 class="work__title">Couleva</h3>
+              <span class="work__role">Brand &amp; Full Platform — 2025/26</span>
+              <p class="work__desc">
+                A Maghreb-heritage streetwear label built end to end: a Strapi
+                headless CMS for editorial, a Remotion engine that renders six
+                branded campaign films from data, and the storefront that ties it
+                together.
+              </p>
+              <div class="work__stack">
+                <span class="tag">Strapi</span>
+                <span class="tag">Remotion</span>
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">i18n</span>
+              </div>
+              <a class="work__link" href="https://couleva.ca" target="_blank" rel="noopener" data-cursor="Visit">
+                Visit live site <span class="arr">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 02 PEXILLO -->
+          <article class="work__item" style="--accent:#e8e3d8" data-reveal="up">
+            <div class="work__visual" data-tilt>
+              <div class="work__visual-lines"></div>
+              <div class="work__visual-grain"></div>
+              <div class="work__visual-inner">
+                <span class="work__tagline">Bilingual Commerce Engine</span>
+                <div class="work__wordmark">Pexillo</div>
+                <span class="work__bignum">E-Commerce · Next.js 16</span>
+              </div>
+            </div>
+            <div class="work__meta">
+              <span class="work__index">02</span>
+              <h3 class="work__title">Pexillo</h3>
+              <span class="work__role">E-Commerce Platform — 2026</span>
+              <p class="work__desc">
+                The Couleva storefront — a bilingual Next.js 16 commerce platform
+                on Supabase and Stripe, with a canvas-based product designer,
+                role-based admin, inventory, discount codes and
+                orphaned-payment recovery.
+              </p>
+              <div class="work__stack">
+                <span class="tag">Next.js 16</span>
+                <span class="tag">Supabase</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">Redux</span>
+                <span class="tag">Konva</span>
+              </div>
+              <a class="work__link" href="https://github.com/mehdiWebDev" target="_blank" rel="noopener" data-cursor="GitHub">
+                View on GitHub <span class="arr">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 03 GAS TRACKER -->
+          <article class="work__item" style="--accent:#46d17b" data-reveal="up">
+            <div class="work__visual" data-tilt>
+              <div class="work__visual-lines"></div>
+              <div class="work__visual-grain"></div>
+              <div class="work__visual-inner">
+                <span class="work__tagline">Track every fill-up</span>
+                <div class="work__wordmark">Gas&nbsp;Tracker</div>
+                <span class="work__bignum">Maps · Analytics</span>
+              </div>
+            </div>
+            <div class="work__meta">
+              <span class="work__index">03</span>
+              <h3 class="work__title">Gas Tracker</h3>
+              <span class="work__role">Web Application — 2025</span>
+              <p class="work__desc">
+                A fuel-tracking app with map-based fill-up logging, cost
+                analytics and live charts, built on a Next.js and MongoDB stack
+                with form validation end to end.
+              </p>
+              <div class="work__stack">
+                <span class="tag">Next.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Leaflet</span>
+                <span class="tag">Recharts</span>
+              </div>
+              <a class="work__link" href="https://github.com/mehdiWebDev" target="_blank" rel="noopener" data-cursor="GitHub">
+                View on GitHub <span class="arr">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 04 WILD OASIS -->
+          <article class="work__item" style="--accent:#c9a24b" data-reveal="up">
+            <div class="work__visual" data-tilt>
+              <div class="work__visual-lines"></div>
+              <div class="work__visual-grain"></div>
+              <div class="work__visual-inner">
+                <span class="work__tagline">Operations, handled</span>
+                <div class="work__wordmark">Wild&nbsp;Oasis</div>
+                <span class="work__bignum">Dashboard · React</span>
+              </div>
+            </div>
+            <div class="work__meta">
+              <span class="work__index">04</span>
+              <h3 class="work__title">The Wild Oasis</h3>
+              <span class="work__role">Operations Dashboard — 2025</span>
+              <p class="work__desc">
+                A boutique-hotel operations dashboard — bookings, cabins, guests
+                and settings — built on React and Supabase with React Query and a
+                clean, reusable component system.
+              </p>
+              <div class="work__stack">
+                <span class="tag">React</span>
+                <span class="tag">Supabase</span>
+                <span class="tag">React Query</span>
+                <span class="tag">Vite</span>
+              </div>
+              <a class="work__link" href="https://github.com/mehdiWebDev" target="_blank" rel="noopener" data-cursor="GitHub">
+                View on GitHub <span class="arr">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== CAPABILITIES ===== -->
+      <section class="section container" id="capabilities">
+        <div class="head">
+          <div>
+            <p class="eyebrow" data-reveal="fade">(03) — Capabilities</p>
+            <h2 class="head__title" data-reveal="up">What I<br /><em>do</em></h2>
+          </div>
+          <div class="head__meta" data-reveal="fade">
+            <p>Full coverage of the stack — and the craft on top of it.</p>
+          </div>
+        </div>
+
+        <div class="caps__grid">
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">01</span>
+            <h3 class="cap__title">Frontend Engineering</h3>
+            <p class="cap__desc">Interfaces that feel fast and considered, down to the last transition.</p>
+            <div class="cap__tools"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind</span></div>
+          </div>
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">02</span>
+            <h3 class="cap__title">Backend &amp; CMS</h3>
+            <p class="cap__desc">APIs, data models and headless content built to scale.</p>
+            <div class="cap__tools"><span>Node</span><span>Strapi</span><span>Supabase</span><span>PostgreSQL</span></div>
+          </div>
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">03</span>
+            <h3 class="cap__title">Commerce</h3>
+            <p class="cap__desc">Checkout, payments, inventory and the operational glue behind them.</p>
+            <div class="cap__tools"><span>Stripe</span><span>Webhooks</span><span>Redux</span><span>Admin</span></div>
+          </div>
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">04</span>
+            <h3 class="cap__title">Motion &amp; 3D</h3>
+            <p class="cap__desc">Scroll-driven storytelling and real-time WebGL that earns its weight.</p>
+            <div class="cap__tools"><span>GSAP</span><span>Three.js</span><span>Lenis</span><span>GLSL</span></div>
+          </div>
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">05</span>
+            <h3 class="cap__title">Brand &amp; Film</h3>
+            <p class="cap__desc">Identity, art direction and programmatic video rendered from code.</p>
+            <div class="cap__tools"><span>Remotion</span><span>Art Direction</span><span>Figma</span></div>
+          </div>
+          <div class="cap" data-reveal="up">
+            <span class="cap__num">06</span>
+            <h3 class="cap__title">Shipping</h3>
+            <p class="cap__desc">From localhost to production — deploys, tunnels and the boring reliable parts.</p>
+            <div class="cap__tools"><span>Vercel</span><span>Railway</span><span>Cloudflare</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== COULEVA STORY ===== -->
+      <section class="couleva section" id="couleva">
+        <div class="couleva__glow" aria-hidden="true"></div>
+        <div class="container couleva__inner">
+          <p class="eyebrow couleva__tag" data-reveal="fade">Flagship — a brand built from zero</p>
+          <h2 class="couleva__headline" data-reveal="up">
+            Wear the Music.<br /><em>Wear the Art.</em>
+          </h2>
+          <div class="couleva__grid">
+            <p class="couleva__lede" data-reveal="up">
+              Couleva is my proof that I can build a <b>product and the brand
+              around it.</b> I designed the identity, engineered a headless CMS
+              for editorial, wrote a Remotion engine that renders campaign films
+              from data, and shipped the storefront. <b>One person, the whole
+              stack.</b>
+            </p>
+            <div class="couleva__pillars" data-reveal="up">
+              <div class="couleva__pillar"><span class="k">Content</span><span class="v">Strapi · i18n · SEO</span></div>
+              <div class="couleva__pillar"><span class="k">Video Engine</span><span class="v">Remotion · 6 templates</span></div>
+              <div class="couleva__pillar"><span class="k">Storefront</span><span class="v">Next.js · Stripe</span></div>
+              <div class="couleva__pillar"><span class="k">Identity</span><span class="v">Red / Black · Oswald</span></div>
+            </div>
+          </div>
+          <div class="couleva__cta" data-reveal="fade">
+            <a class="btn" href="https://couleva.ca" target="_blank" rel="noopener" data-cursor="Visit">
+              <span class="dot"></span> Visit couleva.ca <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section class="section container contact" id="contact">
+        <p class="eyebrow contact__pre" data-reveal="fade">(04) — Contact · Open to roles &amp; freelance</p>
+        <h2 class="contact__big">
+          <a href="mailto:ouatahmahdi06@gmail.com" data-cursor="Email" data-magnetic>
+            Let's build<br />something <em>real.</em>
+          </a>
+        </h2>
+        <a class="contact__email" href="mailto:ouatahmahdi06@gmail.com" data-cursor="Copy" id="emailBtn">
+          <span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--red)"></span>
+          <span id="emailText">ouatahmahdi06@gmail.com</span>
+        </a>
+        <div class="contact__socials">
+          <a href="mailto:ouatahmahdi06@gmail.com" class="link-underline" data-cursor="">Email</a>
+          <a href="https://github.com/mehdiWebDev" target="_blank" rel="noopener" class="link-underline" data-cursor="">GitHub</a>
+          <!-- Replace href with your LinkedIn URL, then remove data-linkedin -->
+          <a href="#" class="link-underline" data-cursor="Soon" data-linkedin>LinkedIn</a>
+          <a href="https://couleva.ca" target="_blank" rel="noopener" class="link-underline" data-cursor="">Couleva</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer__row">
+        <span class="footer__mono">© 2026 <span class="red">Mahdi Ouatah</span> — Designed &amp; built from scratch</span>
+        <span class="footer__mono">Canada — <span id="localTime">--:--</span> local</span>
+        <a href="#top" class="footer__top" data-cursor="">Back to top <span class="up" aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
