@@ -57,7 +57,6 @@ export function initAnimations(lenis) {
   navAutoHide(lenis);
   clock();
   copyEmail();
-  disablePlaceholderLinks();
   if (!isTouch && !reduced) {
     magnetic();
     tilt();
@@ -198,14 +197,6 @@ function marquees() {
     });
 
     play();
-  });
-}
-
-/* placeholder links (e.g. LinkedIn until a real URL is added) do nothing */
-function disablePlaceholderLinks() {
-  document.querySelectorAll('[data-linkedin]').forEach((el) => {
-    el.setAttribute('aria-disabled', 'true');
-    el.addEventListener('click', (e) => e.preventDefault());
   });
 }
 

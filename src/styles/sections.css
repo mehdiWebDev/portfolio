@@ -744,6 +744,21 @@
   color: var(--red);
 }
 .footer__top:hover .up { transform: translateY(-3px); }
+.footer__socials {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.footer__socials a {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  transition: color 0.4s var(--ease-out);
+}
+.footer__socials a:hover { color: var(--ink); }
+.footer__socials a span { color: var(--red); }
 
 /* ===================== REVEAL UTILITIES ===================== */
 /* hide pre-animation ONLY when JS is present (main.js adds html.js before
